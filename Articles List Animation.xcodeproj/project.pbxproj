@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		D6179ADC29CEB8FA007B1F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6179ADB29CEB8FA007B1F18 /* AppDelegate.swift */; };
 		D6179ADE29CEB8FA007B1F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6179ADD29CEB8FA007B1F18 /* SceneDelegate.swift */; };
-		D6179AE029CEB8FA007B1F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6179ADF29CEB8FA007B1F18 /* ViewController.swift */; };
 		D6179AE329CEB8FA007B1F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6179AE129CEB8FA007B1F18 /* Main.storyboard */; };
 		D6179AE529CEB8FB007B1F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6179AE429CEB8FB007B1F18 /* Assets.xcassets */; };
 		D6179AE829CEB8FB007B1F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6179AE629CEB8FB007B1F18 /* LaunchScreen.storyboard */; };
+		D6179AF029CEC3B1007B1F18 /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6179AEF29CEC3B1007B1F18 /* ArticleTableViewController.swift */; };
+		D6179AF229CEC431007B1F18 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6179AF129CEC431007B1F18 /* Article.swift */; };
+		D6179AF429CEC4D0007B1F18 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6179AF329CEC4D0007B1F18 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6179AD829CEB8FA007B1F18 /* Articles List Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Articles List Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6179ADB29CEB8FA007B1F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6179ADD29CEB8FA007B1F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6179ADF29CEB8FA007B1F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6179AE229CEB8FA007B1F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6179AE429CEB8FB007B1F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6179AE729CEB8FB007B1F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6179AE929CEB8FB007B1F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6179AEF29CEC3B1007B1F18 /* ArticleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
+		D6179AF129CEC431007B1F18 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		D6179AF329CEC4D0007B1F18 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				D6179ADB29CEB8FA007B1F18 /* AppDelegate.swift */,
 				D6179ADD29CEB8FA007B1F18 /* SceneDelegate.swift */,
-				D6179ADF29CEB8FA007B1F18 /* ViewController.swift */,
 				D6179AE129CEB8FA007B1F18 /* Main.storyboard */,
 				D6179AE429CEB8FB007B1F18 /* Assets.xcassets */,
 				D6179AE629CEB8FB007B1F18 /* LaunchScreen.storyboard */,
 				D6179AE929CEB8FB007B1F18 /* Info.plist */,
+				D6179AEF29CEC3B1007B1F18 /* ArticleTableViewController.swift */,
+				D6179AF129CEC431007B1F18 /* Article.swift */,
+				D6179AF329CEC4D0007B1F18 /* ArticleTableViewCell.swift */,
 			);
 			path = "Articles List Animation";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6179AE029CEB8FA007B1F18 /* ViewController.swift in Sources */,
+				D6179AF429CEC4D0007B1F18 /* ArticleTableViewCell.swift in Sources */,
+				D6179AF229CEC431007B1F18 /* Article.swift in Sources */,
 				D6179ADC29CEB8FA007B1F18 /* AppDelegate.swift in Sources */,
+				D6179AF029CEC3B1007B1F18 /* ArticleTableViewController.swift in Sources */,
 				D6179ADE29CEB8FA007B1F18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
